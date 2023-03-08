@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "cypress open",
+    "cyrun": "cypress run",
+    "cyrun-chrome": "cypress run -b chrome",
+    "cyrun-firefox": "cypress run -b firefox",
+    "cyrun-edge": "cypress run -b edge"
+  },
+  "author": "Krzysztof Kolodziejczyk",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": ">=9.6.1",
+    "mocha": ">=10.0.0",
+    "mochawesome": ">=7.1.3",
+    "@testing-library/cypress": ">=8.0.2",
+    "cypress-failed-log": ">=2.9.5",
+    "mochawesome-report-generator": ">=6.2.0",
+    "path": ">=0.12.7"
+  }
+}
