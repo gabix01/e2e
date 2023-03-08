@@ -1,6 +1,7 @@
 import loginPageSelectors from './loginPageSelectors';
 import BasePage from '../basePage';
 
+
 // Dodaj klasę o nazwie LoginPage
 
 // Na bazie testu DEMO, dodaj metodę o nazwie login
