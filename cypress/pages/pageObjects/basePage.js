@@ -1,5 +1,6 @@
+
 export default class BasePage {
-	
+
 	constructor() {
 		this.url = '';
 	}

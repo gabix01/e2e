@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-
+import {faker} from "@faker-js/faker";
 import { loginPage } from '../../pages/pageObjects/loginPage/loginPage';
 
 describe('Demo TestArena Tests', function () {
@@ -57,6 +57,7 @@ describe('Demo TestArena Tests', function () {
 		cy.get('#content > article > nav > ul > div > a').click();
 		cy.get('.button_link_li').eq(1).click();
 		cy.get('#name').type(loginPage.randomString(10, 'letters'));
+	//	cy.get('#name').type(faker.random.word());
 		cy.get('#description').type(loginPage.randomString(10, 'letters'));
 		cy.get('#result').type(loginPage.randomString(10, 'letters'));
 		cy.get('#add').click();
